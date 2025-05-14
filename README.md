@@ -31,14 +31,14 @@ pip install matplotlib numpy bcb
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repo.git
-cd nome-do-repo
+git clone [https://github.com/seu-usuario/nome-do-repo.git](https://github.com/KauaSilvad/Banco-Central.git)
+cd Banco-Central
 ```
 
 2. Execute o script:
 
 ```bash
-python simulador_selic.py
+python Banco-Central.py
 ```
 
 3. Preencha os dados quando solicitado:
@@ -95,4 +95,4 @@ Distribuído sob a licença MIT. Veja o arquivo `LICENSE` para mais informaçõe
 
 ## 👨‍💻 Autor
 
-Desenvolvido com 💙 por [Seu Nome](https://github.com/seu-usuario)
+Desenvolvido com 💙 por [Kauã Silva](https://github.com/Kauasilvad)
