@@ -44,8 +44,8 @@ python Banco-Central.py
 3. Preencha os dados quando solicitado:
 
 - 💰 **Capital Investido** (ex: `10000`)
-- 📆 **Data Inicial** (formato: `YYYY/MM/DD`, mínimo `1995/01/01`)
-- 📆 **Data Final** (formato: `YYYY/MM/DD`)
+- 📆 **Data Inicial** (formato: `DD/MM/YYYY`, mínimo `1995/01/01`)
+- 📆 **Data Final** (formato: `DD/MM/YYYY`)
 - 🔁 **Frequência**:
   - `Y` para anual
   - `m` para mensal
@@ -56,8 +56,8 @@ python Banco-Central.py
 ```
 Digite o capital investido: 10000
 Digite a frequência do periodo(Y,m,D): m
-Digite a data inicial maior do que 1995/01/01 no formato YYYY/MM/DD: 2010/01/01
-Digite a data final no seguinte formato YYYY/MM/DD: 2024/01/01
+Digite a data inicial maior do que 1995/01/01 no formato DD/MM/YYYY: 01/01/2007
+Digite a data final no seguinte formato DD/MM/YYYY: 01/01/2024
 ```
 
 Saída: tabela com capital acumulado mês a mês.
